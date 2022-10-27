@@ -12,7 +12,7 @@ int main(int argc, char** argv){
 		printf("%s\n", argv[i]);
 	}
 	printf("Prepare-se para o sofrimento!\n");
-
+	int nha = 1;
 
 
 
