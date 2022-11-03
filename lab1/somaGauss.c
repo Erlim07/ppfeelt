@@ -10,8 +10,8 @@
 #include <stdlib.h>
 int main(int argc, char *argv[]) {
     int num;
-    scanf("%d", &num);
+    scanf("%d", &num); 
     int somaG = ((1+ num)*num)/2;
-    printf("%d", somaG);
+    printf("%d\n", somaG);
  return EXIT_SUCCESS;
 }
