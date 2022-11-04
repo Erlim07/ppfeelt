@@ -31,5 +31,5 @@ int fatorial(int num){
     for(int i = 1; i<=num; i++){
         result = result * i; 
     }
-    return result;
+    return result; 
 }
