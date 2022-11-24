@@ -12,7 +12,7 @@ bool ePrimo(int i);
 int main(void) {
     int inicio;
     int final;
-
+    printf("Forneça um intervalo: ");
     scanf("%d %d", &inicio, &final);
     if((inicio+1)%2){
         printf("%i", inicio+1);

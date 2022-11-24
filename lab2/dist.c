@@ -9,7 +9,7 @@
 
 int main(void){
     double xA, yA, xB, yB;
-
+    printf("Forneça coordenadas de dois pontos:");
     scanf("%lf %lf", &xA, &yA);
 
     scanf("%lf %lf", &xB, &yB);

@@ -9,6 +9,7 @@
 int main(void){
 
     float xa, xb, ya, yb;
+    printf("Forneça dois pontos: ");
     scanf("%f %f", &xa, &ya);
     scanf("%f %f", &xb, &yb);
 
