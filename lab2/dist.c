@@ -2,7 +2,7 @@
 * Arquivo: dist.c
 * Autor: Euler Borges Ferreira Filho
 * Matricula: 12121EEL001
-* Criado em:03/11/2022
+* Criado em:24/11/2022
 */
 #include <stdio.h>
 #include <math.h>
