@@ -1,5 +1,5 @@
 /**
-* Arquivo: palindrono.c
+* Arquivo: contaCaracteres.c
 * Autor: Euler Borges Ferreira Filho
 * Matricula: 12121EEL001
 * Criado em:09/12/2022
