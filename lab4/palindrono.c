@@ -30,7 +30,6 @@ int main(void){
     char palin_limpo[n];
     limpa_str(palin, tamanho_ef, tamanho, palin_limpo);
 
-    printf("%s\n", *palin_limpo);
     int sim = 1;
     for(int i =0; i< tamanho_ef/2; i++){
         if(!(palin_limpo[i] == palin_limpo[tamanho_ef-1-i])){
@@ -98,12 +97,13 @@ int lenstr_ol(char* palavra){
 
 void limpa_str(char * str, int tamanho_ef, int tamanho_t, char * str_nova){
     int j = 0;
-    for(int i = 0; i < tamanho_t; i++){
-        if(str[i]>='a' && str[i]<='z')
-        str_nova[j] = str[i];
-        printf("%c", str_nova[j]);
-        j++;
+    int i = 0;
+    while(str[i]){
+        if(str[i]>='a' && str[i]<='z'){
+            str_nova[j] = str[i];
+            j++;
+        }
+        i++;
     }
-    str_nova[tamanho_ef-1] = 0;
-    printf("%s", str_nova);
+    str_nova[tamanho_ef] = 0;
 }

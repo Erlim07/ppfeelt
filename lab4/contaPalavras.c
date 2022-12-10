@@ -14,6 +14,7 @@ char* to_lower(char* palavra);
 
 int main(void){
     char string[n];
+    printf("Frase: ");
     pega_str(string, n);
     to_lower(string);
     int i = 0;
