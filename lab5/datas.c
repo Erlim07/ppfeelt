@@ -21,11 +21,11 @@ const char strmes[13][4] = {
 int main(void){
     Datas tempo;
     printf("Insira uma data(dia/mes/ano): ");
-    scanf("¨%d/%d/%d", &tempo.dia, &tempo.mes, &tempo.ano);
+    scanf("%d/%d/%d", &tempo.dia, &tempo.mes, &tempo.ano);
 
     printf("%02d.%02d.%04d", tempo.dia, tempo.mes, tempo.ano);
-    printf("  %02d-%02d-%04d", tempo.dia, tempo.mes, tempo.ano);
-    printf("  %02d/%02d/%04d", tempo.dia, tempo.mes, tempo.ano);
+    printf("  %02d-%02d-%04d", tempo.mes, tempo.dia, tempo.ano);
+    printf("  %02d/%02d/%02d", tempo.dia, tempo.mes, tempo.ano%100);
     printf("  %02d%s%04d", tempo.dia, strmes[tempo.mes], tempo.ano);
 
 
