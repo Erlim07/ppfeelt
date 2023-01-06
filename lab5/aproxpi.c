@@ -6,19 +6,20 @@
 */
 
 #include <stdio.h>
-float aproximadora(int n);
+double aproximadora(int n);
 
 
 int main(void){
     int n;
-    printf("Digite um numero: ")
+    printf("Digite um numero: ");
     scanf("%d", &n);
 
-
+    printf("%lf\n", aproximadora(n));
 
     return 0;
 }
 
-float aproximadora(int n){
-    
+double aproximadora(int n){
+    if(n ==0) return 4;
+    if(n%2) return aproximadora(n-1) -(double) 4/(2*n+1); else return aproximadora(n-1) +(double) 4/(2*n+1);
 }
