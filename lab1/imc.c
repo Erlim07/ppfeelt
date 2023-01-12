@@ -9,8 +9,9 @@
 int main(void){
     int peso;
     float altura;
-
+    printf("Entre com u numero:");
     scanf("%d", &peso);
+    printf("Entre com u numero:");
     scanf("%f", &altura);
 
     float imc = peso/(altura*altura);

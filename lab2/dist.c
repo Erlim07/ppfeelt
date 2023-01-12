@@ -11,7 +11,7 @@ int main(void){
     double xA, yA, xB, yB;
     printf("Forneça coordenadas de dois pontos:");
     scanf("%lf %lf", &xA, &yA);
-
+    printf("Forneça coordenadas de dois pontos:");
     scanf("%lf %lf", &xB, &yB);
 
     double res;

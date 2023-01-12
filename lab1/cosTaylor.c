@@ -14,7 +14,9 @@ int fatorial(int num);
 int main(void){
     int n;
     float x;
+    printf("Entre com u numero:");
     scanf("%d", &n);
+    printf("Entre com u numero:");
     scanf("%f", &x);
     float resultado = 0.0; 
     for(int i = 0; i <= n; i++){

@@ -9,6 +9,7 @@
 
 int main(int argc, char *argv[]) {
     unsigned int num;
+    printf("Entre com u numero:");
     scanf("%lu", &num);
     unsigned long int result = 1;
     

@@ -9,6 +9,7 @@
 
 int main(void){
     int n;
+    printf("Entre com u numero:");
     scanf("%d", &n);
     for(int i = 0, j = 0, k = 1, t; i < n; i++, t = j+k, j = k, k = t) printf("%d\n", j );
 

@@ -10,6 +10,7 @@
 #include <stdlib.h>
 int main(int argc, char *argv[]) {
     int num;
+    printf("Entre com u numero:");
     scanf("%d", &num); 
     int somaG = ((1+ num)*num)/2;
     printf("%d\n", somaG);
